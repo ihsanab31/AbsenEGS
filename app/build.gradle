@@ -60,6 +60,8 @@ dependencies {
         exclude module: "support-v13"
     }
     implementation 'com.mobsandgeeks:android-saripaar:2.0.3'
+    //google
+    implementation 'com.google.android.gms:play-services-vision:15.0.2'
 
 
 }
