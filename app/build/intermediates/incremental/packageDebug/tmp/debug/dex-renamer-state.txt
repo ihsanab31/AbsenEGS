@@ -1,0 +1,4 @@
+#Tue Jul 17 10:46:50 ICT 2018
+base.0=D\:\\Document\\AbsensiEgs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
