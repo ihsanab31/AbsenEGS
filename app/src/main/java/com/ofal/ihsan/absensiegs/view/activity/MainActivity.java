@@ -1,7 +1,9 @@
-package com.ofal.ihsan.absensiegs;
+package com.ofal.ihsan.absensiegs.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.ofal.ihsan.absensiegs.R;
 
 public class MainActivity extends AppCompatActivity {
 
