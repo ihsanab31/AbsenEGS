@@ -3,30 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroud"
     android:orientation="vertical"
     tools:context=".view.activity.LoginActivity">
+
+    <include layout="@layout/header_app" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/whitetrans"
+        android:background="@drawable/backgroud"
+
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/dimen30dp"
-                android:textColor="@color/biru"
-                android:text="@string/egs_absen"
-                android:layout_marginBottom="@dimen/dimen30dp"
-                />
+            android:background="@color/whitetrans"
+            android:gravity="center"
+            android:orientation="vertical">
+
             <LinearLayout
-                android:layout_width="@dimen/dimen250dp"
+                android:layout_width="@dimen/dimen300dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="horizontal"
@@ -40,13 +37,14 @@
                 <EditText
                     android:id="@+id/et_username"
                     android:layout_width="match_parent"
-
                     android:layout_height="@dimen/dimen40dp"
-                    android:backgroundTint="@color/biru" />
+                    android:inputType="text"
+                    android:backgroundTint="@color/biru"
+                    android:hint="@string/username" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="@dimen/dimen250dp"
+                android:layout_width="@dimen/dimen300dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="horizontal"
@@ -61,24 +59,53 @@
                     android:id="@+id/et_password"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dimen40dp"
-                    android:backgroundTint="@color/biru" />
+                    android:inputType="textPassword"
+                    android:backgroundTint="@color/biru"
+                    android:hint="@string/password" />
             </LinearLayout>
+
             <Button
-                android:layout_width="@dimen/dimen250dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/dimen300dp"
+                android:layout_height="@dimen/dimen40dp"
+                android:layout_marginTop="@dimen/dimen10dp"
                 android:background="@drawable/bg_circle_biru"
                 android:text="@string/Login"
                 android:textColor="@color/white"
-                android:layout_marginTop="@dimen/dimen10dp"
-                android:textSize="@dimen/textdimen14sp"/>
+                android:textSize="@dimen/textdimen14sp" />
+
             <Button
-                android:layout_width="@dimen/dimen250dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/btn_createpass"
+                android:layout_width="@dimen/dimen300dp"
+                android:layout_height="@dimen/dimen40dp"
+                android:layout_marginTop="@dimen/dimen10dp"
                 android:background="@drawable/bg_button_password"
                 android:text="@string/buat_password"
                 android:textColor="@color/biru"
+                android:textSize="@dimen/textdimen14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen10dp"
-                android:textSize="@dimen/textdimen14sp"/>
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/lupa_password"
+                    android:textColor="@color/biru"
+                    android:textSize="@dimen/textdimen14sp" />
+
+                <ImageView
+                    android:layout_width="@dimen/dimen15dp"
+                    android:layout_height="@dimen/dimen15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen7dp"
+                    android:src="@drawable/ic_lock" />
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

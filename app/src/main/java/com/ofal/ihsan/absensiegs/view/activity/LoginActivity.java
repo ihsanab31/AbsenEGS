@@ -15,8 +15,7 @@ public class LoginActivity extends NormalActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        NoActionBarConfig noActionBarConfig = new NoActionBarConfig();
-        noActionBarConfig.fullScreen(this);
+
     }
 
     @Override
