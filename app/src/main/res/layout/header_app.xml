@@ -11,5 +11,6 @@
         android:text="@string/login_karyawan"
         android:textColor="@color/white"
         android:textSize="@dimen/textdimen16sp"
+        android:id="@+id/et_label"
         android:layout_gravity="center"/>
 </LinearLayout>

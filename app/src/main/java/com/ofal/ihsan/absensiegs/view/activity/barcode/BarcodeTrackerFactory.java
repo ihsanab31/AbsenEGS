@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ofal.ihsan.absensiegs.util.barcode;
+package com.ofal.ihsan.absensiegs.view.activity.barcode;
 
 import android.content.Context;
 
@@ -22,13 +22,8 @@ import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;
 
 /**
- * Created by
- * Name     : Ihsan Abdurahman
- * Email    : ihsanab31@gmail.com
- * WA       : 0878253827096
- * on 18/07/2018
- * ------------------------------
- * This class for
+ * Factory for creating a tracker and associated graphic to be associated with a new barcode.  The
+ * multi-processor uses this factory to create barcode trackers as needed -- one for each barcode.
  */
 class BarcodeTrackerFactory implements MultiProcessor.Factory<Barcode> {
     private Context mContext;

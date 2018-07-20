@@ -7,4 +7,28 @@
     <string name="password">Password</string>
     <string name="login_karyawan">Login Karyawan</string>
     <string name="lupa_password"><u>Lupa Password</u></string>
+    <string name="basic_information">Basic Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="daftar">Daftar</string>
+    <string name="private_informaion">Private Informaion</string>
+    <string name="apakah_anda_memiliki_password">Apakah anda memiliki password</string>
+    <string name="default_name">Ihsan Abdurahman</string>
+    <string name="jabatan">IT Officer</string>
+    <string name="profile">Profile</string>
+    <string name="absen">Absen</string>
+    <string name="history">History</string>
+    <string name="logout">Logout</string>
+    <string name="scan_untuk_absen">Scan QR Code</string>
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">Scan barcode</string>
+    <string name="no_barcode_captured">No barcode captured</string>
+    <string name="barcode_error_format">"Error reading barcode: %1$s"</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
 </resources>

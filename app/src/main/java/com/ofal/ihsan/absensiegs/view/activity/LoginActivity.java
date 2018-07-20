@@ -47,5 +47,6 @@ public class LoginActivity extends NormalActivity {
     }
 
     private void login() {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 }

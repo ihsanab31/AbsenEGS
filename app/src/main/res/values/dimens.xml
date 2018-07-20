@@ -20,4 +20,7 @@
     <dimen name="dimen250dp">250dp</dimen>
     <dimen name="dimen300dp">300dp</dimen>
     <dimen name="dimen2dp">2dp</dimen>
+    <dimen name="dimen120dp">120dp</dimen>
+    <dimen name="dimen100dp">100dp</dimen>
+    <dimen name="dimen200dp">200dp</dimen>
 </resources>
