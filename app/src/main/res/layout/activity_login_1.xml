@@ -79,9 +79,11 @@
                     android:id="@+id/btn_login"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Login"/>
+                    android:background="@color/biru"
+                    android:text="@string/Login" />
 
                 <TextView
+                    android:layout_marginTop="@dimen/dimen10dp"
                     android:layout_below="@id/btn_login"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
