@@ -29,7 +29,7 @@
                 android:layout_centerVertical="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/login1"
+                android:text="NIK/Email"
                 android:layout_marginRight="@dimen/dimen30dp"/>
 
             <EditText
@@ -37,7 +37,7 @@
                 android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/login1"/>
+                android:hint="NIK/Email"/>
 
         </LinearLayout>
 
